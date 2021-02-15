@@ -38,6 +38,7 @@ public abstract class Fruit {
         a.pourTo ( a1 );
 
         System.out.println ("\nПереложим все фрукты в коробки по виду фрукта.\n");
+
         System.out.println ( "Коробка со всеми апельсинами: " + o1.getWeight () );
         System.out.println ( "Коробка со всеми яблоками: " + a1.getWeight () );
     }
